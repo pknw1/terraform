@@ -1,0 +1,6 @@
+costcode="CAVM"
+contact="Contact Name"
+environment="production"
+ref="VSTS ref 9910"
+resourcegroup="RG-AMS-VCAP-PROD"
+location="westeu"

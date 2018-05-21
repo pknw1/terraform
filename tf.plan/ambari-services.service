@@ -1,0 +1,13 @@
+[unit]
+Description=Ambari
+
+[Service]
+User=root
+Group=root
+RemainAfterExit=yes
+ExecStart=/etc/init.d/ambari-start
+ExecStop=/etc/init.d/ambari-services stop
+
+[Install]
+WantedBy=multi-user.target
+

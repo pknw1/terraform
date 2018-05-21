@@ -1,0 +1,33 @@
+variable "location" {
+  description = "Location for Services"
+  type        = "string"
+  default     = "West Europe"
+}
+
+variable "environment" {
+  description = "Target Envioronment for Config and Deployment"
+  type        = "string"
+}
+
+variable "costcode" {
+  description = "project CostCode"
+  type        = "string"
+}
+
+variable "contact" {
+  description = "Primary Contact for Resource"
+  type        = "string"
+}
+
+variable "resource_group_name" {
+  description = "Resource Group"
+  type        = "string"
+}
+
+variable "docker_image_registry" {
+  description = "Docker Image Registry"
+  type        = "string"
+}
+
+
+
